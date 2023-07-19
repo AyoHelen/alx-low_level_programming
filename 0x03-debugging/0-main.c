@@ -1,16 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
-
+* main - Test function for positive or negative
+* Return: 0
+*/
 int main(void)
 {
-
-printf("_putchar\n");
-
+int i;
+i = 0;
+positive_or_negative(i);
 return (0);
 }
